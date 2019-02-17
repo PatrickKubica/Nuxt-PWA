@@ -22,13 +22,10 @@
 
     <fhsection section-id="skills">
       <div>
-        <h1 class="title">
-          Software&shy;entwicklung
-        </h1>
         <div class="columns">
           <div class="column">
             <h1 class="title">
-              Programmiersprachen &amp; Tools/Frameworks
+              Software&shy;entwicklung
             </h1>
             <ul>
               <li>PHP</li>
