@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-success is-fullheight">
+    <section class="hero is-light is-fullheight">
       <div class="hero-head">
         <header class="navbar is-fixed-top">
           <div class="container has-text-black">
@@ -43,7 +43,7 @@
         </div>
       </div>
     </section>
-    <section class="hero is-fullheight is-success" id="experience">
+    <section class="hero is-fullheight is-light" id="experience">
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title has-text-black">Berufserfahrung</h1>
@@ -57,7 +57,7 @@
         </div>
       </div>
     </section>
-    <section class="hero is-fullheight is-success" id="awards">
+    <section class="hero is-fullheight is-light" id="awards">
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title has-text-black">Abschluss &amp; Zertifizierungen</h1>
