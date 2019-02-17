@@ -31,8 +31,8 @@
 
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title">Patrick Kubica</h1>
-          <h2 class="subtitle">Lead Software Developer at Sitewards GmbH, Frankfurt am Main</h2>
+          <h1 class="title has-text-black">Patrick Kubica</h1>
+          <h2 class="subtitle has-text-black">Lead Software Developer at Sitewards GmbH, Frankfurt am Main</h2>
         </div>
       </div>
     </section>
@@ -46,7 +46,7 @@
     <section class="hero is-fullheight is-success" id="experience">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title">Berufserfahrung</h1>
+          <h1 class="title has-text-black">Berufserfahrung</h1>
         </div>
       </div>
     </section>
@@ -60,7 +60,7 @@
     <section class="hero is-fullheight is-success" id="awards">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title">Abschluss &amp; Zertifizierungen</h1>
+          <h1 class="title has-text-black">Abschluss &amp; Zertifizierungen</h1>
         </div>
       </div>
     </section>
