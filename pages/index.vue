@@ -10,13 +10,71 @@
           <h2 class="subtitle has-text-black">
             Full-Stack Web Developer
           </h2>
+          <p>
+            Lead Software Developer at Sitewards GmbH, Frankfurt am Main
+          </p>
+          <p>
+            Bachelor of Science Informatik
+          </p>
         </div>
       </div>
     </section>
+
     <fhsection section-id="skills">
-      <h1 class="title">
-        Softwareentwicklung
-      </h1>
+      <div>
+        <h1 class="title">
+          Software&shy;entwicklung
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <h1 class="title">
+              Programmiersprachen &amp; Tools/Frameworks
+            </h1>
+            <ul>
+              <li>PHP</li>
+              <li>Javascript / jQuery</li>
+              <li>Laravel</li>
+              <li>Vue.js</li>
+              <li>Node.js</li>
+              <li>Spryker</li>
+              <li>Magento / Magento 2</li>
+              <li>Typo3</li>
+              <li>Express</li>
+              <li>MySQL / MongoDB</li>
+              <li>Amazon Echo / Alexa Skills</li>
+              <li>HTML</li>
+              <li>CSS / Sass / Less</li>
+              <li>Apache / Nginx</li>
+              <li>Git</li>
+              <li>PHPUnit / PHP_CodeSniffer / ESLint</li>
+              <li>Gulp</li>
+              <li>Composer / npm / Bower / Yarn</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h1 class="title">
+              Workflow
+            </h1>
+            <ul>
+              <li>
+                Agile Softwareentwicklung, Scrum &amp; Kanban
+              </li>
+              <li>
+                Automatisierte Codechecks und manuelle Codereviews
+              </li>
+              <li>
+                Unit-Tests
+              </li>
+              <li>
+                Qualitätssicherungsprozess
+              </li>
+              <li>
+                Jira / Bitbucket / Confluence / Office 365
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </fhsection>
     <fhsection section-id="experience" additional-classes="is-light">
       <h1 class="title has-text-black">
@@ -41,7 +99,7 @@
   </div>
 </template>
 
-<script>
+  <script>
 import Fhsection from '~/components/Fhsection.vue'
 import Navbar from '~/components/Navbar.vue'
 
@@ -53,5 +111,5 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 </style>
