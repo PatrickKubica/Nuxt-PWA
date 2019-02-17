@@ -1,8 +1,8 @@
 {
-  "name": "Nuxt-PWA",
+  "name": "Patrick Kubica",
   "version": "1.0.0",
-  "description": "Nuxt PWA",
-  "author": "PatrickKubica",
+  "description": "Patrick Kubica",
+  "author": "Patrick Kubica",
   "private": true,
   "scripts": {
     "dev": "nuxt",
