@@ -32,7 +32,7 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title has-text-black">Patrick Kubica</h1>
-          <h2 class="subtitle has-text-black">Lead Software Developer at Sitewards GmbH, Frankfurt am Main</h2>
+          <h2 class="subtitle has-text-black">Full-Stack Web Developer</h2>
         </div>
       </div>
     </section>
