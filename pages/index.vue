@@ -10,9 +10,9 @@
                 onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
                 data-target="navbarMenuHeroC"
               >
-                <span></span>
-                <span></span>
-                <span></span>
+                <span />
+                <span />
+                <span />
               </span>
             </div>
             <div id="navbarMenuHeroC" class="navbar-menu">
@@ -31,52 +31,50 @@
 
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title has-text-black">Patrick Kubica</h1>
-          <h2 class="subtitle has-text-black">Full-Stack Web Developer</h2>
+          <h1 class="title has-text-black">
+            Patrick Kubica
+          </h1>
+          <h2 class="subtitle has-text-black">
+            Full-Stack Web Developer
+          </h2>
         </div>
       </div>
     </section>
-    <section class="hero is-fullheight" id="skills">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title">Softwareentwicklung</h1>
-        </div>
-      </div>
-    </section>
-    <section class="hero is-fullheight is-light" id="experience">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title has-text-black">Berufserfahrung</h1>
-        </div>
-      </div>
-    </section>
-    <section class="hero is-fullheight" id="education">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title">Bildungsweg</h1>
-        </div>
-      </div>
-    </section>
-    <section class="hero is-fullheight is-light" id="awards">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title has-text-black">Abschluss &amp; Zertifizierungen</h1>
-        </div>
-      </div>
-    </section>
-    <section class="hero is-fullheight" id="contact">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title">Kontakt</h1>
-        </div>
-      </div>
-    </section>
+    <fhsection section-id="skills">
+      <h1 class="title">
+        Softwareentwicklung
+      </h1>
+    </fhsection>
+    <fhsection section-id="experience" additional-classes="is-light">
+      <h1 class="title has-text-black">
+        Berufserfahrung
+      </h1>
+    </fhsection>
+    <fhsection section-id="education">
+      <h1 class="title">
+        Bildungsweg
+      </h1>
+    </fhsection>
+    <fhsection section-id="awards" additional-classes="is-light">
+      <h1 class="title has-text-black">
+        Abschluss &amp; Zertifizierungen
+      </h1>
+    </fhsection>
+    <fhsection section-id="contact">
+      <h1 class="title">
+        Kontakt
+      </h1>
+    </fhsection>
   </div>
 </template>
 
 <script>
+import Fhsection from '~/components/Fhsection.vue'
+
 export default {
-  components: {}
+  components: {
+    Fhsection
+  }
 }
 </script>
 
