@@ -1,34 +1,7 @@
 <template>
   <div>
     <section class="hero is-light is-fullheight">
-      <div class="hero-head">
-        <header class="navbar is-fixed-top">
-          <div class="container has-text-black">
-            <div class="navbar-brand">
-              <span
-                class="navbar-burger burger"
-                onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
-                data-target="navbarMenuHeroC"
-              >
-                <span />
-                <span />
-                <span />
-              </span>
-            </div>
-            <div id="navbarMenuHeroC" class="navbar-menu">
-              <div class="navbar-end">
-                <a class="navbar-item" href="#">Home</a>
-                <a class="navbar-item" href="#skills">Softwareentwicklung</a>
-                <a class="navbar-item" href="#experience">Berufserfahrung</a>
-                <a class="navbar-item" href="#education">Bildungsweg</a>
-                <a class="navbar-item" href="#awards">Abschluss &amp; Zertifizierungen</a>
-                <a class="navbar-item" href="#contact">Kontakt</a>
-              </div>
-            </div>
-          </div>
-        </header>
-      </div>
-
+      <navbar />
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title has-text-black">
@@ -70,10 +43,12 @@
 
 <script>
 import Fhsection from '~/components/Fhsection.vue'
+import Navbar from '~/components/Navbar.vue'
 
 export default {
   components: {
-    Fhsection
+    Fhsection,
+    Navbar
   }
 }
 </script>
