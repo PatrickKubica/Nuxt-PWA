@@ -1,68 +1,57 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        Nuxt-PWA
-      </h1>
-      <h2 class="subtitle">
-        Nuxt PWA
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
+  <div>
+    <section class="hero is-light is-fullheight">
+      <navbar />
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title has-text-black">
+            Patrick Kubica
+          </h1>
+          <h2 class="subtitle has-text-black">
+            Full-Stack Web Developer
+          </h2>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <fhsection section-id="skills">
+      <h1 class="title">
+        Softwareentwicklung
+      </h1>
+    </fhsection>
+    <fhsection section-id="experience" additional-classes="is-light">
+      <h1 class="title has-text-black">
+        Berufserfahrung
+      </h1>
+    </fhsection>
+    <fhsection section-id="education">
+      <h1 class="title">
+        Bildungsweg
+      </h1>
+    </fhsection>
+    <fhsection section-id="awards" additional-classes="is-light">
+      <h1 class="title has-text-black">
+        Abschluss &amp; Zertifizierungen
+      </h1>
+    </fhsection>
+    <fhsection section-id="contact">
+      <h1 class="title">
+        Kontakt
+      </h1>
+    </fhsection>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Fhsection from '~/components/Fhsection.vue'
+import Navbar from '~/components/Navbar.vue'
 
 export default {
   components: {
-    Logo
+    Fhsection,
+    Navbar
   }
 }
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
