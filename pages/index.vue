@@ -46,28 +46,9 @@
               <li>PHPUnit / PHP_CodeSniffer / ESLint</li>
               <li>Gulp</li>
               <li>Composer / npm / Bower / Yarn</li>
-            </ul>
-          </div>
-          <div class="column">
-            <h1 class="title">
-              Workflow
-            </h1>
-            <ul>
-              <li>
-                Agile Softwareentwicklung, Scrum &amp; Kanban
-              </li>
-              <li>
-                Automatisierte Codechecks und manuelle Codereviews
-              </li>
-              <li>
-                Unit-Tests
-              </li>
-              <li>
-                Qualitätssicherungsprozess
-              </li>
-              <li>
-                Jira / Bitbucket / Confluence / Office 365
-              </li>
+              <li>Scrum &amp; Kanban</li>
+              <li>Qualitätssicherungsprozess</li>
+              <li>Jira / Bitbucket / Confluence / Office 365</li>
             </ul>
           </div>
         </div>
