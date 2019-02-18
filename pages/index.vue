@@ -22,36 +22,32 @@
 
     <fhsection section-id="skills">
       <div>
-        <div class="columns">
-          <div class="column">
-            <h1 class="title">
-              Software&shy;entwicklung
-            </h1>
-            <ul>
-              <li>PHP</li>
-              <li>Javascript / jQuery</li>
-              <li>Laravel</li>
-              <li>Vue.js</li>
-              <li>Node.js</li>
-              <li>Spryker</li>
-              <li>Magento / Magento 2</li>
-              <li>Typo3</li>
-              <li>Express</li>
-              <li>MySQL / MongoDB</li>
-              <li>Amazon Echo / Alexa Skills</li>
-              <li>HTML</li>
-              <li>CSS / Sass / Less</li>
-              <li>Apache / Nginx</li>
-              <li>Git</li>
-              <li>PHPUnit / PHP_CodeSniffer / ESLint</li>
-              <li>Gulp</li>
-              <li>Composer / npm / Bower / Yarn</li>
-              <li>Scrum &amp; Kanban</li>
-              <li>Qualitätssicherungsprozess</li>
-              <li>Jira / Bitbucket / Confluence / Office 365</li>
-            </ul>
-          </div>
-        </div>
+        <h1 class="title">
+          Software&shy;entwicklung
+        </h1>
+        <ul>
+          <li>PHP</li>
+          <li>Javascript / jQuery</li>
+          <li>Laravel</li>
+          <li>Vue.js</li>
+          <li>Node.js</li>
+          <li>Spryker</li>
+          <li>Magento / Magento 2</li>
+          <li>Typo3</li>
+          <li>Express</li>
+          <li>MySQL / MongoDB</li>
+          <li>Amazon Echo / Alexa Skills</li>
+          <li>HTML</li>
+          <li>CSS / Sass / Less</li>
+          <li>Apache / Nginx</li>
+          <li>Git</li>
+          <li>PHPUnit / PHP_CodeSniffer / ESLint</li>
+          <li>Gulp</li>
+          <li>Composer / npm / Bower / Yarn</li>
+          <li>Scrum &amp; Kanban</li>
+          <li>Qualitätssicherungsprozess</li>
+          <li>Jira / Bitbucket / Confluence / Office 365</li>
+        </ul>
       </div>
     </fhsection>
     <fhsection section-id="experience" additional-classes="is-light">
