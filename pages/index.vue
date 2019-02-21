@@ -78,34 +78,46 @@
       </div>
     </fhsection>
     <fhsection section-id="education">
-      <h1 class="title">
+      <h1 class="title is-size-2-tablet">
         Bildungsweg
       </h1>
-      <div class="container has-text-centered">
-        <div>
-          <h1 class="title has-text-black">
-            Hochschule Darmstadt
-          </h1>
-          <h2 class="subtitle has-text-black">
-            Bachelor of Science Informatik
-          </h2>
-          <p>
-            Abschluss in Regelstudienzeit
-          </p>
-          <p>
-            Note: 1,4
-          </p>
+      <div class="columns is-multiline">
+        <div class="column is-half is-offset-one-quarter">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h1 class="title has-text-black">
+                  Hochschule Darmstadt
+                </h1>
+                <h2 class="subtitle has-text-black">
+                  Bachelor of Science Informatik
+                </h2>
+                <p>
+                  Abschluss in Regelstudienzeit
+                </p>
+                <p>
+                  Note: 1,4
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <h1 class="title has-text-black">
-            Bachgauschule Babenhausen
-          </h1>
-          <h2 class="subtitle has-text-black">
-            Abitur
-          </h2>
-          <p>
-            Note: 1,5
-          </p>
+        <div class="column is-half is-offset-one-quarter">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h1 class="title has-text-black">
+                  Bachgauschule Babenhausen
+                </h1>
+                <h2 class="subtitle has-text-black">
+                  Abitur
+                </h2>
+                <p>
+                  Note: 1,5
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </fhsection>
