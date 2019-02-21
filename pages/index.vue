@@ -4,16 +4,16 @@
       <navbar />
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title has-text-black is-size-1">
+          <h1 class="title has-text-black is-size-1-tablet">
             Patrick Kubica
           </h1>
-          <h2 class="subtitle has-text-black is-size-2">
+          <h2 class="subtitle has-text-black is-size-2-tablet">
             Full-Stack Web Developer
           </h2>
-          <p class="is-size-4">
+          <p class="is-size-4-tablet">
             Lead Software Developer at Sitewards GmbH, Frankfurt am Main
           </p>
-          <p class="is-size-4">
+          <p class="is-size-4-tablet">
             Bachelor of Science Informatik
           </p>
         </div>
