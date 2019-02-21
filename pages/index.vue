@@ -120,7 +120,7 @@
       </ul>
     </fhsection>
     <fhsection section-id="contact">
-      <a class="is-size-1-tablet is-size-2-mobile" href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
+      <a class="is-size-1-tablet is-size-4-mobile" href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
     </fhsection>
   </div>
 </template>
