@@ -67,9 +67,15 @@
       </div>
     </fhsection>
     <fhsection section-id="experience" additional-classes="is-light">
-      <h1 class="title has-text-black">
+      <h1 class="title">
         Berufserfahrung
       </h1>
+      <div class="columns is-multiline">
+        <jobcard job-title="Lead Software Developer" company="Sitewards GmbH" date="März 2018 - Heute" />
+        <jobcard job-title="Software Developer" company="Sitewards GmbH" date="August 2017 - Februar 2018" />
+        <jobcard job-title="Junior Software Developer" company="Sitewards GmbH" date="März 2015 - Juli 2017" />
+        <jobcard job-title="Software Team Assistent" company="Sitewards GmbH" date="November 2012 - Februar 2015" />
+      </div>
     </fhsection>
     <fhsection section-id="education">
       <h1 class="title">
@@ -92,11 +98,13 @@
   <script>
 import Fhsection from '~/components/Fhsection.vue'
 import Navbar from '~/components/Navbar.vue'
+import Jobcard from '~/components/Jobcard.vue'
 
 export default {
   components: {
     Fhsection,
-    Navbar
+    Navbar,
+    Jobcard
   }
 }
 </script>
