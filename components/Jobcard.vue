@@ -4,10 +4,10 @@
       <div class="card-content">
         <div class="media">
           <div class="media-content">
-            <p class="title is-4">
+            <p class="title is-size-4-mobile">
               {{ jobTitle }}
             </p>
-            <p class="subtitle is-6">
+            <p class="subtitle is-size-6-mobile">
               {{ company }}
             </p>
           </div>

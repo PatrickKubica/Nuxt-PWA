@@ -67,7 +67,7 @@
       </div>
     </fhsection>
     <fhsection section-id="experience" additional-classes="is-light">
-      <h1 class="title">
+      <h1 class="title is-size-1-tablet">
         Berufserfahrung
       </h1>
       <div class="columns is-multiline">
@@ -78,7 +78,7 @@
       </div>
     </fhsection>
     <fhsection section-id="education">
-      <h1 class="title is-size-2-tablet">
+      <h1 class="title is-size-1-tablet">
         Bildungsweg
       </h1>
       <div class="columns is-multiline">
@@ -86,10 +86,10 @@
           <div class="card">
             <div class="card-content">
               <div class="content">
-                <h1 class="title has-text-black">
+                <h1 class="title has-text-black is-size-4-mobile">
                   Hochschule Darmstadt
                 </h1>
-                <h2 class="subtitle has-text-black">
+                <h2 class="subtitle has-text-black is-size-6-mobile">
                   Bachelor of Science Informatik
                 </h2>
                 <p>
@@ -106,10 +106,10 @@
           <div class="card">
             <div class="card-content">
               <div class="content">
-                <h1 class="title has-text-black">
+                <h1 class="title has-text-black is-size-4-mobile">
                   Bachgauschule Babenhausen
                 </h1>
-                <h2 class="subtitle has-text-black">
+                <h2 class="subtitle has-text-black is-size-6-mobile">
                   Abitur
                 </h2>
                 <p>
@@ -122,7 +122,7 @@
       </div>
     </fhsection>
     <fhsection section-id="awards" additional-classes="is-light">
-      <h1 class="title has-text-black">
+      <h1 class="title has-text-black is-size-1-tablet">
         Abschluss &amp; Zertifizierungen
       </h1>
       <ul class="is-size-5-tablet has-text-weight-bold">
