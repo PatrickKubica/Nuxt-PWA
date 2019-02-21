@@ -81,15 +81,47 @@
       <h1 class="title">
         Bildungsweg
       </h1>
+      <div class="container has-text-centered">
+        <div>
+          <h1 class="title has-text-black">
+            Hochschule Darmstadt
+          </h1>
+          <h2 class="subtitle has-text-black">
+            Bachelor of Science Informatik
+          </h2>
+          <p>
+            Abschluss in Regelstudienzeit
+          </p>
+          <p>
+            Note: 1,4
+          </p>
+        </div>
+        <div>
+          <h1 class="title has-text-black">
+            Bachgauschule Babenhausen
+          </h1>
+          <h2 class="subtitle has-text-black">
+            Abitur
+          </h2>
+          <p>
+            Note: 1,5
+          </p>
+        </div>
+      </div>
     </fhsection>
     <fhsection section-id="awards" additional-classes="is-light">
       <h1 class="title has-text-black">
         Abschluss &amp; Zertifizierungen
       </h1>
+      <ul class="is-size-5-tablet has-text-weight-bold">
+        <li>Bachelor of Science Informatik</li>
+        <li>Spryker Bootcamp Certification</li>
+        <li>Magento Certified Developer</li>
+      </ul>
     </fhsection>
     <fhsection section-id="contact">
       <h1 class="title">
-        Kontakt
+        <a href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
       </h1>
     </fhsection>
   </div>
