@@ -41,7 +41,6 @@
             <li>HTML</li>
             <li>CSS / Sass / Less</li>
             <li>Apache / Nginx</li>
-            <li>Git</li>
             <li>PHPUnit / PHP_CodeSniffer / ESLint</li>
             <li>Gulp</li>
             <li>Composer / npm / Bower / Yarn</li>
@@ -55,6 +54,7 @@
             <li>Agile Softwareentwicklung</li>
             <li>Scrum</li>
             <li>Kanban</li>
+            <li>Git</li>
             <li>Automatisierte Codechecks und manuelle Codereviews</li>
             <li>Unit-Tests</li>
             <li>Qualitätssicherungsprozess</li>
