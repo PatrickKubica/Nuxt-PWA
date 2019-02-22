@@ -16,16 +16,36 @@
           <p class="is-size-4-tablet">
             Bachelor of Science Informatik
           </p>
+          <a href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
         </div>
       </div>
     </section>
 
     <fhsection section-id="skills">
-      <div class="columns">
-        <div class="column">
-          <h1 class="title">
-            Software&shy;entwicklung
-          </h1>
+      <h1 class="title">
+        Software&shy;entwicklung
+      </h1>
+      <div class="columns is-multiline">
+        <skillcard>PHP</skillcard>
+        <skillcard>Javascript / jQuery</skillcard>
+        <skillcard>Laravel</skillcard>
+        <skillcard>Vue.js</skillcard>
+        <skillcard>Node.js</skillcard>
+        <skillcard>Spryker</skillcard>
+        <skillcard>Magento / Magento 2</skillcard>
+        <skillcard>Typo3</skillcard>
+        <skillcard>Express</skillcard>
+        <skillcard>MySQL / MongoDB</skillcard>
+        <skillcard>Amazon Echo / Alexa Skills</skillcard>
+        <skillcard>HTML</skillcard>
+        <skillcard>Bootstrap / Bulma</skillcard>
+        <skillcard>CSS / Sass / Less</skillcard>
+        <skillcard>Apache / Nginx</skillcard>
+        <skillcard>PHPUnit / PHP_CodeSniffer / ESLint</skillcard>
+        <skillcard>Gulp</skillcard>
+        <skillcard>Composer / npm / Bower / Yarn</skillcard>
+        
+        <!--
           <ul class="is-size-5-tablet has-text-weight-bold">
             <li>PHP</li>
             <li>Javascript / jQuery</li>
@@ -63,13 +83,10 @@
             <li>Confluence</li>
             <li>Office 365</li>
           </ul>
-        </div>
+          -->
       </div>
     </fhsection>
     <fhsection section-id="experience" additional-classes="is-light">
-      <h1 class="title is-size-1-tablet">
-        Berufserfahrung
-      </h1>
       <div class="columns is-multiline">
         <jobcard job-title="Lead Software Developer" company="Sitewards GmbH" date="März 2018 - Heute" />
         <jobcard job-title="Software Developer" company="Sitewards GmbH" date="August 2017 - Februar 2018" />
@@ -78,9 +95,6 @@
       </div>
     </fhsection>
     <fhsection section-id="education">
-      <h1 class="title is-size-1-tablet">
-        Bildungsweg
-      </h1>
       <div class="columns is-multiline">
         <div class="column is-half is-offset-one-quarter">
           <div class="card">
@@ -131,9 +145,6 @@
         <li>Magento Certified Developer</li>
       </ul>
     </fhsection>
-    <fhsection section-id="contact">
-      <a class="is-size-1-tablet is-size-4-mobile" href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
-    </fhsection>
   </div>
 </template>
 
@@ -141,12 +152,14 @@
 import Fhsection from '~/components/Fhsection.vue'
 import Navbar from '~/components/Navbar.vue'
 import Jobcard from '~/components/Jobcard.vue'
+import Skillcard from '~/components/Skillcard.vue'
 
 export default {
   components: {
     Fhsection,
     Navbar,
-    Jobcard
+    Jobcard,
+    Skillcard
   }
 }
 </script>
