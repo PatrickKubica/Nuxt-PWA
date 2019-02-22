@@ -149,14 +149,15 @@
       </div>
     </fhsection>
     <fhsection section-id="awards" additional-classes="is-light">
-      <h1 class="title has-text-black is-size-1-tablet">
-        Abschluss &amp; Zertifizierungen
-      </h1>
-      <ul class="is-size-5-tablet has-text-weight-bold">
-        <li>Bachelor of Science Informatik</li>
-        <li>Spryker Bootcamp Certification</li>
-        <li>Magento Certified Developer</li>
-      </ul>
+      <h2 class="subtitle has-text-black is-size-2-tablet">
+        Bachelor of Science Informatik
+      </h2>
+      <h2 class="subtitle has-text-black is-size-2-tablet">
+        Spryker Bootcamp Certification
+      </h2>
+      <h2 class="subtitle has-text-black is-size-2-tablet">
+        Magento Certified Developer
+      </h2>
     </fhsection>
   </div>
 </template>
