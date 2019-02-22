@@ -7,21 +7,3 @@
     </article>
   </div>
 </template>
-<script>
-export default {
-  props: {
-    jobTitle: {
-      type: String,
-      default: ''
-    },
-    company: {
-      type: String,
-      default: ''
-    },
-    date: {
-      type: String,
-      default: ''
-    }
-  }
-}
-</script>
