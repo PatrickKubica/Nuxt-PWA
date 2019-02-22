@@ -16,7 +16,20 @@
           <p class="is-size-4-tablet">
             Bachelor of Science Informatik
           </p>
-          <a href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
+          <div>
+            <a href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
+          </div>
+          <div>
+            <a target="_blank" href="https://www.linkedin.com/in/patrick-kubica-002027156">
+              <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-3x" />
+            </a>
+            <a target="_blank" href="https://www.xing.com/profile/Patrick_Kubica2">
+              <font-awesome-icon :icon="['fab', 'xing']" class="fa-3x" />
+            </a>
+            <a target="_blank" href="https://github.com/PatrickKubica">
+              <font-awesome-icon :icon="['fab', 'github']" class="fa-3x" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
