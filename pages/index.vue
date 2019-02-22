@@ -38,7 +38,7 @@
       <h1 class="title">
         Software&shy;entwicklung
       </h1>
-      <div class="columns is-multiline">
+      <div class="columns is-multiline is-mobile">
         <skillcard>PHP</skillcard>
         <skillcard>Javascript / jQuery</skillcard>
         <skillcard>Laravel</skillcard>
