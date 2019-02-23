@@ -81,13 +81,13 @@
         Bildungsweg
       </h1>
       <div class="awards">
-        <h2 class="subtitle is-size-2-tablet is-highlight-text">
+        <h2 class="subtitle is-size-3-tablet is-highlight-text">
           Bachelor of Science Informatik
         </h2>
-        <h2 class="subtitle is-size-2-tablet is-highlight-text">
+        <h2 class="subtitle is-size-3-tablet is-highlight-text">
           Spryker Bootcamp Certification
         </h2>
-        <h2 class="subtitle is-size-2-tablet is-highlight-text">
+        <h2 class="subtitle is-size-3-tablet is-highlight-text">
           Magento Certified Developer
         </h2>
       </div>
@@ -170,6 +170,6 @@ export default {
   color: $highlight-text;
 }
 .awards {
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 }
 </style>
