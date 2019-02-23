@@ -172,10 +172,19 @@ export default {
   background-attachment: fixed;
   background-size: cover;
 }
+
 .has-background-first {
   background-image: url('~assets/background-first.jpg');
 }
 .has-background-second {
   background-image: url('~assets/background-second.jpg');
+}
+@media only screen and (max-width: 600px) {
+  .has-background-first {
+    background-image: url('~assets/background-first-mobile.jpg');
+  }
+  .has-background-second {
+    background-image: url('~assets/background-second-mobile.jpg');
+  }
 }
 </style>
