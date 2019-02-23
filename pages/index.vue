@@ -20,13 +20,13 @@
             <a href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
           </div>
           <div class="socialicons">
-            <a target="_blank" href="https://www.linkedin.com/in/patrick-kubica-002027156">
+            <a target="_blank" href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
               <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-3x" />
             </a>
-            <a target="_blank" href="https://www.xing.com/profile/Patrick_Kubica2">
+            <a target="_blank" href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
               <font-awesome-icon :icon="['fab', 'xing']" class="fa-3x" />
             </a>
-            <a target="_blank" href="https://github.com/PatrickKubica">
+            <a target="_blank" href="https://github.com/PatrickKubica" aria-label="GitHub">
               <font-awesome-icon :icon="['fab', 'github']" class="fa-3x" />
             </a>
           </div>
