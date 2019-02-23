@@ -179,12 +179,4 @@ export default {
 .has-background-second {
   background-image: url('~assets/background-second.jpg');
 }
-@media only screen and (max-width: 600px) {
-  .has-background-first {
-    background-image: url('~assets/background-first-mobile.jpg');
-  }
-  .has-background-second {
-    background-image: url('~assets/background-second-mobile.jpg');
-  }
-}
 </style>
