@@ -17,7 +17,7 @@
             Bachelor of Science Informatik
           </p>
           <div class="is-size-4-tablet mail">
-            <a class="has-text-white" href="mailto:mail@patrick-kubica.de">mail@patrickkubica.de</a>
+            <a class="has-text-white" href="mailto:mail@patrick-kubica.de">mail@patrick-kubica.de</a>
           </div>
           <div class="socialicons">
             <a class="has-text-white" target="_blank" rel="noopener" href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
