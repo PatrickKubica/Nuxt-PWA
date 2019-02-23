@@ -15,12 +15,10 @@
         </div>
         <div id="navbarMenuHeroC" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item" href="#">Home</a>
-            <a class="navbar-item" href="#skills">Softwareentwicklung</a>
-            <a class="navbar-item" href="#experience">Berufserfahrung</a>
-            <a class="navbar-item" href="#education">Bildungsweg</a>
-            <a class="navbar-item" href="#awards">Abschluss &amp; Zertifizierungen</a>
-            <a class="navbar-item" href="#contact">Kontakt</a>
+            <a class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" href="#">Home</a>
+            <a class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" href="#skills">Softwareentwicklung</a>
+            <a class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" href="#experience">Berufserfahrung</a>
+            <a class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" href="#education">Bildungsweg</a>
           </div>
         </div>
       </div>
