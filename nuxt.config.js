@@ -43,7 +43,7 @@ module.exports = {
         imports: [
          {
            set:'@fortawesome/free-brands-svg-icons',
-           icons: ['fab']
+           icons: ['faLinkedin', 'faXing', 'faGithub']
          }
        ]
       }
