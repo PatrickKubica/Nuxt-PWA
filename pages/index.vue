@@ -57,7 +57,7 @@
         <skillcard>PHPUnit / PHP_CS / ESLint</skillcard>
         <skillcard>Gulp</skillcard>
         <skillcard>Composer / npm / Bower / Yarn</skillcard>
-        <skillcard>Agile Softwareentwicklung</skillcard>
+        <skillcard>Agile Software&shy;entwicklung</skillcard>
         <skillcard>Scrum / Kanban</skillcard>
         <skillcard>Git</skillcard>
         <skillcard>Unit-Testing</skillcard>
