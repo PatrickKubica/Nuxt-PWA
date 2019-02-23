@@ -179,4 +179,9 @@ export default {
 .has-background-second {
   background-image: url('~assets/background-second.jpg');
 }
+@media screen and (max-width: 600px) {
+  .has-background {
+    background-attachment: scroll;
+  }
+}
 </style>
