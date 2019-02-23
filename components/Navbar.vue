@@ -19,7 +19,6 @@
             <a class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" href="#skills">Softwareentwicklung</a>
             <a class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" href="#experience">Berufserfahrung</a>
             <a class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" href="#education">Bildungsweg</a>
-            <a class="navbar-item" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" href="#awards">Abschluss &amp; Zertifizierungen</a>
           </div>
         </div>
       </div>

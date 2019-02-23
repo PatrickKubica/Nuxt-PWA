@@ -16,10 +16,10 @@
           <p class="is-size-4-tablet">
             Bachelor of Science Informatik
           </p>
-          <div>
+          <div class="is-size-4-tablet mail">
             <a href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
           </div>
-          <div>
+          <div class="socialicons">
             <a target="_blank" href="https://www.linkedin.com/in/patrick-kubica-002027156">
               <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-3x" />
             </a>
@@ -54,52 +54,21 @@
         <skillcard>Bootstrap / Bulma</skillcard>
         <skillcard>CSS / Sass / Less</skillcard>
         <skillcard>Apache / Nginx</skillcard>
-        <skillcard>PHPUnit / PHP_CodeSniffer / ESLint</skillcard>
+        <skillcard>PHPUnit / PHP_CS / ESLint</skillcard>
         <skillcard>Gulp</skillcard>
         <skillcard>Composer / npm / Bower / Yarn</skillcard>
-        
-        <!--
-          <ul class="is-size-5-tablet has-text-weight-bold">
-            <li>PHP</li>
-            <li>Javascript / jQuery</li>
-            <li>Laravel</li>
-            <li>Vue.js</li>
-            <li>Node.js</li>
-            <li>Spryker</li>
-            <li>Magento / Magento 2</li>
-            <li>Typo3</li>
-            <li>Express</li>
-            <li>MySQL / MongoDB</li>
-            <li>Amazon Echo / Alexa Skills</li>
-            <li>HTML</li>
-            <li>CSS / Sass / Less</li>
-            <li>Apache / Nginx</li>
-            <li>PHPUnit / PHP_CodeSniffer / ESLint</li>
-            <li>Gulp</li>
-            <li>Composer / npm / Bower / Yarn</li>
-          </ul>
-        </div>
-        <div class="column">
-          <h1 class="title">
-            Workflow
-          </h1>
-          <ul class="is-size-5-tablet has-text-weight-bold">
-            <li>Agile Softwareentwicklung</li>
-            <li>Scrum</li>
-            <li>Kanban</li>
-            <li>Git</li>
-            <li>Automatisierte Codechecks und manuelle Codereviews</li>
-            <li>Unit-Tests</li>
-            <li>Qualitätssicherungsprozess</li>
-            <li>Jira</li>
-            <li>Bitbucket</li>
-            <li>Confluence</li>
-            <li>Office 365</li>
-          </ul>
-          -->
+        <skillcard>Agile Softwareentwicklung</skillcard>
+        <skillcard>Scrum / Kanban</skillcard>
+        <skillcard>Git</skillcard>
+        <skillcard>Unit-Testing</skillcard>
+        <skillcard>Jira / Bitbucket</skillcard>
+        <skillcard>Confluence / Office 365</skillcard>
       </div>
     </fhsection>
     <fhsection section-id="experience" additional-classes="is-light">
+      <h1 class="title is-section-title is-size-1-tablet">
+        Berufserfahrung
+      </h1>
       <div class="columns is-multiline">
         <jobcard job-title="Lead Software Developer" company="Sitewards GmbH" date="März 2018 - Heute" />
         <jobcard job-title="Software Developer" company="Sitewards GmbH" date="August 2017 - Februar 2018" />
@@ -108,6 +77,20 @@
       </div>
     </fhsection>
     <fhsection section-id="education">
+      <h1 class="title is-section-title is-size-1-tablet">
+        Bildungsweg
+      </h1>
+      <div class="awards">
+        <h2 class="subtitle is-size-2-tablet is-highlight-text">
+          Bachelor of Science Informatik
+        </h2>
+        <h2 class="subtitle is-size-2-tablet is-highlight-text">
+          Spryker Bootcamp Certification
+        </h2>
+        <h2 class="subtitle is-size-2-tablet is-highlight-text">
+          Magento Certified Developer
+        </h2>
+      </div>
       <div class="columns is-multiline">
         <div class="column is-half is-offset-one-quarter">
           <div class="card">
@@ -148,17 +131,6 @@
         </div>
       </div>
     </fhsection>
-    <fhsection section-id="awards" additional-classes="is-light">
-      <h2 class="subtitle has-text-black is-size-2-tablet">
-        Bachelor of Science Informatik
-      </h2>
-      <h2 class="subtitle has-text-black is-size-2-tablet">
-        Spryker Bootcamp Certification
-      </h2>
-      <h2 class="subtitle has-text-black is-size-2-tablet">
-        Magento Certified Developer
-      </h2>
-    </fhsection>
   </div>
 </template>
 
@@ -179,4 +151,25 @@ export default {
 </script>
 
 <style lang="scss">
+.mail {
+  padding-top: 1.5rem;
+  color: $highlight-text;
+}
+.socialicons {
+  padding-top: 3rem;
+
+  a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.is-section-title {
+  padding-bottom: 3rem;
+}
+.is-highlight-text {
+  color: $highlight-text;
+}
+.awards {
+  padding-bottom: 4rem;
+}
 </style>
