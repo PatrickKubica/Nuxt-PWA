@@ -1,32 +1,32 @@
 <template>
   <div>
-    <section class="hero is-light is-fullheight">
+    <section class="hero is-light is-fullheight has-background has-background-first">
       <navbar />
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title has-text-black is-size-1-tablet">
+          <h1 class="title is-size-1-tablet has-text-white">
             Patrick Kubica
           </h1>
-          <h2 class="subtitle has-text-black is-size-2-tablet">
+          <h2 class="subtitle is-size-2-tablet has-text-white">
             Full-Stack Web Developer
           </h2>
-          <p class="is-size-4-tablet">
+          <p class="is-size-4-tablet has-text-white">
             Lead Software Developer at Sitewards GmbH, Frankfurt am Main
           </p>
-          <p class="is-size-4-tablet">
+          <p class="is-size-4-tablet has-text-white">
             Bachelor of Science Informatik
           </p>
           <div class="is-size-4-tablet mail">
-            <a href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
+            <a class="has-text-white" href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
           </div>
           <div class="socialicons">
-            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
+            <a class="has-text-white" target="_blank" rel="noopener" href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
               <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-3x" />
             </a>
-            <a target="_blank" rel="noopener" href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
+            <a class="has-text-white" target="_blank" rel="noopener" href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
               <font-awesome-icon :icon="['fab', 'xing']" class="fa-3x" />
             </a>
-            <a target="_blank" rel="noopener" href="https://github.com/PatrickKubica" aria-label="GitHub">
+            <a class="has-text-white" target="_blank" rel="noopener" href="https://github.com/PatrickKubica" aria-label="GitHub">
               <font-awesome-icon :icon="['fab', 'github']" class="fa-3x" />
             </a>
           </div>
@@ -65,10 +65,7 @@
         <skillcard>Confluence / Office 365</skillcard>
       </div>
     </fhsection>
-    <fhsection section-id="experience" additional-classes="is-light">
-      <h1 class="title is-section-title is-size-1-tablet">
-        Berufserfahrung
-      </h1>
+    <fhsection section-id="experience" additional-classes="is-light has-background has-background-second">
       <div class="columns is-multiline">
         <jobcard job-title="Lead Software Developer" company="Sitewards GmbH" date="März 2018 - Heute" />
         <jobcard job-title="Software Developer" company="Sitewards GmbH" date="August 2017 - Februar 2018" />
@@ -77,9 +74,6 @@
       </div>
     </fhsection>
     <fhsection section-id="education">
-      <h1 class="title is-section-title is-size-1-tablet">
-        Bildungsweg
-      </h1>
       <div class="awards">
         <h2 class="subtitle is-size-3-tablet is-highlight-text">
           Bachelor of Science Informatik
@@ -153,7 +147,6 @@ export default {
 <style lang="scss">
 .mail {
   padding-top: 1.5rem;
-  color: $highlight-text;
 }
 .socialicons {
   padding-top: 3rem;
@@ -171,5 +164,18 @@ export default {
 }
 .awards {
   padding-bottom: 5rem;
+}
+
+.has-background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.has-background-first {
+  background-image: url('~assets/background-first.jpg');
+}
+.has-background-second {
+  background-image: url('~assets/background-second.jpg');
 }
 </style>
