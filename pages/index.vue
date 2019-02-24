@@ -183,5 +183,11 @@ export default {
   .has-background {
     background-attachment: scroll;
   }
+  .has-background-first {
+    background-image: url('~assets/background-first-mobile.jpg');
+  }
+  .has-background-second {
+    background-image: url('~assets/background-second-mobile.jpg');
+  }
 }
 </style>
