@@ -13,10 +13,10 @@
           <p class="is-size-4-tablet has-text-white">
             Lead Software Developer at Sitewards GmbH, Frankfurt am Main
           </p>
-          <p class="is-size-4-tablet has-text-white">
+          <p class="is-size-4-tablet has-text-white pt-05">
             Bachelor of Science Informatik
           </p>
-          <div class="is-size-4-tablet mail">
+          <div class="is-size-4-tablet mail pt-1">
             <a class="has-text-white" href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
           </div>
           <div class="socialicons">
@@ -180,6 +180,12 @@ export default {
 }
 .awards {
   padding-bottom: 5rem;
+}
+.pt-05 {
+  padding-top: 0.5rem;
+}
+.pt-1 {
+  padding-top: 1rem;
 }
 .pb-2 {
   padding-bottom: 2rem;
