@@ -41,10 +41,14 @@ module.exports = {
     '@nuxtjs/style-resources',
     ['nuxt-fontawesome', {
         imports: [
-         {
-           set:'@fortawesome/free-brands-svg-icons',
-           icons: ['faLinkedin', 'faXing', 'faGithub']
-         }
+          {
+            set:'@fortawesome/free-solid-svg-icons',
+            icons: ['faEnvelope']
+          },
+          {
+            set:'@fortawesome/free-brands-svg-icons',
+            icons: ['faLinkedin', 'faXing', 'faGithub']
+          }
        ]
       }
     ]

@@ -115,6 +115,11 @@
             </h1>
           </div>
         </educationcard>
+        <div class="column is-half is-offset-one-quarter mail">
+          <a href="mailto:mail@patrickkubica.de">
+            <font-awesome-icon :icon="['fa', 'envelope']" class="fa-6x" />
+          </a>
+        </div>
       </div>
     </fhsection>
   </div>
@@ -141,6 +146,9 @@ export default {
 <style lang="scss">
 .mail {
   padding-top: 1.5rem;
+  a {
+    color: #363636;
+  }
 }
 .socialicons {
   padding-top: 3rem;
