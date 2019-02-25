@@ -33,38 +33,35 @@
         </div>
       </div>
     </section>
-
-    <fhsection section-id="skills">
-      <h1 class="title">
-        Software&shy;entwicklung
-      </h1>
-      <div class="columns is-multiline is-mobile">
-        <skillcard>PHP</skillcard>
-        <skillcard>Javascript / jQuery</skillcard>
-        <skillcard>Laravel</skillcard>
-        <skillcard>Vue.js</skillcard>
-        <skillcard>Node.js</skillcard>
-        <skillcard>Spryker</skillcard>
-        <skillcard>Magento / Magento 2</skillcard>
-        <skillcard>Typo3</skillcard>
-        <skillcard>Express</skillcard>
-        <skillcard>MySQL / MongoDB</skillcard>
-        <skillcard>Amazon Echo / Alexa Skills</skillcard>
-        <skillcard>HTML</skillcard>
-        <skillcard>Bootstrap / Bulma</skillcard>
-        <skillcard>CSS / Sass / Less</skillcard>
-        <skillcard>Apache / Nginx</skillcard>
-        <skillcard>PHPUnit / PHP_CS / ESLint</skillcard>
-        <skillcard>Gulp</skillcard>
-        <skillcard>Composer / npm / Bower / Yarn</skillcard>
-        <skillcard>Agile Software&shy;entwicklung</skillcard>
-        <skillcard>Scrum / Kanban</skillcard>
-        <skillcard>Git</skillcard>
-        <skillcard>Unit-Testing</skillcard>
-        <skillcard>Jira / Bitbucket</skillcard>
-        <skillcard>Confluence / Office 365</skillcard>
+    <section id="skills" class="section is-medium">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          Software&shy;entwicklung
+        </h1>
+        <div class="columns is-multiline is-mobile">
+          <skillcard>PHP</skillcard>
+          <skillcard>Javascript / jQuery</skillcard>
+          <skillcard>Laravel</skillcard>
+          <skillcard>Vue.js / Nuxt</skillcard>
+          <skillcard>Node.js</skillcard>
+          <skillcard>Spryker</skillcard>
+          <skillcard>Magento / Magento 2</skillcard>
+          <skillcard>Typo3</skillcard>
+          <skillcard>Express</skillcard>
+          <skillcard>MySQL / MongoDB</skillcard>
+          <skillcard>Amazon Echo / Alexa Skills</skillcard>
+          <skillcard>HTML</skillcard>
+          <skillcard>CSS / Sass / Less</skillcard>
+          <skillcard>Bootstrap / Bulma</skillcard>
+          <skillcard>Apache / Nginx</skillcard>
+          <skillcard>PHPUnit / PHP_CS / ESLint</skillcard>
+          <skillcard>Composer / npm / Bower / Yarn</skillcard>
+          <skillcard>Scrum / Kanban</skillcard>
+          <skillcard>Git / Bitbucket</skillcard>
+          <skillcard>Unit-Testing</skillcard>
+        </div>
       </div>
-    </fhsection>
+    </section>
     <fhsection section-id="experience" additional-classes="is-light has-background has-background-second">
       <div class="columns is-multiline">
         <jobcard job-title="Lead Software Developer" company="Sitewards GmbH" date="März 2018 - Heute" />
