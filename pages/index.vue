@@ -35,7 +35,7 @@
     </section>
     <section id="skills" class="section is-medium">
       <div class="container has-text-centered">
-        <h1 class="title">
+        <h1 class="title is-size-2-tablet">
           Software&shy;entwicklung
         </h1>
         <div class="columns is-multiline is-mobile is-vcentered">
