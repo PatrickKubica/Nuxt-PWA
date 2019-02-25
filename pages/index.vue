@@ -23,10 +23,10 @@
             <a class="has-text-white" rel="noopener" href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
               <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-3x" />
             </a>
-            <a class="has-text-white" target="_blank" href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
+            <a class="has-text-white" rel="noopener" href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
               <font-awesome-icon :icon="['fab', 'xing']" class="fa-3x" />
             </a>
-            <a class="has-text-white" target="_blank" rel="noopener" href="https://github.com/PatrickKubica" aria-label="GitHub">
+            <a class="has-text-white" rel="noopener" href="https://github.com/PatrickKubica" aria-label="GitHub">
               <font-awesome-icon :icon="['fab', 'github']" class="fa-3x" />
             </a>
           </div>
@@ -118,7 +118,7 @@
         <div class="column is-half is-offset-one-quarter social-icons-footer">
           <div class="columns is-vcentered is-mobile">
             <div class="column">
-              <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
+              <a rel="noopener" href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
                 <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-5x" />
               </a>
             </div>
@@ -128,7 +128,7 @@
               </a>
             </div>
             <div class="column">
-              <a target="_blank" rel="noopener" href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
+              <a rel="noopener" href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
                 <font-awesome-icon :icon="['fab', 'xing']" class="fa-5x" />
               </a>
             </div>
