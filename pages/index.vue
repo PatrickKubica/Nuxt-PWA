@@ -170,6 +170,9 @@ export default {
 .pb-2 {
   padding-bottom: 2rem;
 }
+#skills {
+  padding: 6rem 1.5rem;
+}
 
 .has-background {
   background-position: center center;
@@ -196,6 +199,9 @@ export default {
   }
   .pb-2 {
     padding-bottom: 1rem;
+  }
+  #skills {
+    padding: 3rem 1.5rem;
   }
 }
 </style>
