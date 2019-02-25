@@ -38,10 +38,10 @@
         <h1 class="title">
           Software&shy;entwicklung
         </h1>
-        <div class="columns is-multiline is-mobile">
+        <div class="columns is-multiline is-mobile is-vcentered">
           <skillcard>PHP</skillcard>
-          <skillcard>Javascript / jQuery</skillcard>
           <skillcard>Laravel</skillcard>
+          <skillcard>Javascript / jQuery</skillcard>
           <skillcard>Vue.js / Nuxt</skillcard>
           <skillcard>Progressive Web Apps</skillcard>
           <skillcard>Node.js / Express</skillcard>
@@ -53,9 +53,9 @@
           <skillcard>HTML</skillcard>
           <skillcard>CSS / Sass / Less</skillcard>
           <skillcard>Bootstrap / Bulma</skillcard>
-          <skillcard>Apache / Nginx</skillcard>
           <skillcard>PHPUnit / PHP_CS / ESLint</skillcard>
           <skillcard>Composer / npm / Bower / Yarn</skillcard>
+          <skillcard>Apache / Nginx</skillcard>
           <skillcard>Scrum / Kanban</skillcard>
           <skillcard>Git / Bitbucket</skillcard>
           <skillcard>Unit-Testing</skillcard>
