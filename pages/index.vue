@@ -116,7 +116,7 @@
           </div>
         </educationcard>
         <div class="column is-half is-offset-one-quarter mail">
-          <a href="mailto:mail@patrickkubica.de">
+          <a href="mailto:mail@patrickkubica.de" aria-label="E-Mail">
             <font-awesome-icon :icon="['fa', 'envelope']" class="fa-6x" />
           </a>
         </div>
