@@ -43,11 +43,11 @@
           <skillcard>Javascript / jQuery</skillcard>
           <skillcard>Laravel</skillcard>
           <skillcard>Vue.js / Nuxt</skillcard>
-          <skillcard>Node.js</skillcard>
+          <skillcard>Progressive Web Apps</skillcard>
+          <skillcard>Node.js / Express</skillcard>
           <skillcard>Spryker</skillcard>
           <skillcard>Magento / Magento 2</skillcard>
           <skillcard>Typo3</skillcard>
-          <skillcard>Express</skillcard>
           <skillcard>MySQL / MongoDB</skillcard>
           <skillcard>Amazon Echo / Alexa Skills</skillcard>
           <skillcard>HTML</skillcard>
