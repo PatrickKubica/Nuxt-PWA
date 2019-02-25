@@ -35,7 +35,7 @@
     </section>
     <section id="skills" class="section is-medium">
       <div class="container has-text-centered">
-        <h1 class="title is-size-2-tablet">
+        <h1 class="title is-size-2-tablet pb-2">
           Software&shy;entwicklung
         </h1>
         <div class="columns is-multiline is-mobile is-vcentered">
@@ -166,6 +166,9 @@ export default {
 }
 .awards {
   padding-bottom: 5rem;
+}
+.pb-2 {
+  padding-bottom: 2rem;
 }
 
 .has-background {
