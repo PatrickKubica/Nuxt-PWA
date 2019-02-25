@@ -195,7 +195,7 @@ export default {
     background-image: url('~assets/background-second-mobile.jpg');
   }
   .pb-2 {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 }
 </style>
