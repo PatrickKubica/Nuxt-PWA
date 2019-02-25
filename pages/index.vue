@@ -77,7 +77,7 @@
       <div class="columns is-multiline">
         <educationcard>
           <div class="message-body">
-            <h1 class="title">
+            <h1 class="title is-size-4-mobile">
               Hochschule Darmstadt
             </h1>
             <h2 class="subtitle is-size-6-mobile">
@@ -93,7 +93,7 @@
         </educationcard>
         <educationcard>
           <div class="message-body">
-            <h1 class="title">
+            <h1 class="title is-size-4-mobile">
               Bachgauschule Babenhausen
             </h1>
             <h2 class="subtitle is-size-6-mobile">
@@ -106,14 +106,14 @@
         </educationcard>
         <educationcard>
           <div class="message-body">
-            <h1 class="title">
+            <h1 class="title is-size-4-mobile">
               Spryker Bootcamp Certification
             </h1>
           </div>
         </educationcard>
         <educationcard>
           <div class="message-body">
-            <h1 class="title">
+            <h1 class="title is-size-4-mobile">
               Magento Certified Developer
             </h1>
           </div>
