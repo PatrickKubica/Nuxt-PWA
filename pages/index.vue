@@ -115,10 +115,24 @@
             </h1>
           </div>
         </educationcard>
-        <div class="column is-half is-offset-one-quarter mail">
-          <a href="mailto:mail@patrickkubica.de" aria-label="E-Mail">
-            <font-awesome-icon :icon="['fa', 'envelope']" class="fa-6x" />
-          </a>
+        <div class="column is-half is-offset-one-quarter social-icons-footer">
+          <div class="columns is-vcentered is-mobile">
+            <div class="column">
+              <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
+                <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-5x" />
+              </a>
+            </div>
+            <div class="column">
+              <a href="mailto:mail@patrickkubica.de" aria-label="E-Mail">
+                <font-awesome-icon :icon="['fa', 'envelope']" class="fa-5x" />
+              </a>
+            </div>
+            <div class="column">
+              <a target="_blank" rel="noopener" href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
+                <font-awesome-icon :icon="['fab', 'xing']" class="fa-5x" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </fhsection>
@@ -144,7 +158,7 @@ export default {
 </script>
 
 <style lang="scss">
-.mail {
+.social-icons-footer {
   padding-top: 1.5rem;
   a {
     color: #363636;
@@ -180,7 +194,6 @@ export default {
   background-attachment: fixed;
   background-size: cover;
 }
-
 .has-background-first {
   background-image: url('~assets/background-first.jpg');
 }
