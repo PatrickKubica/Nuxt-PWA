@@ -219,6 +219,9 @@ export default {
   .pb-2 {
     padding-bottom: 1rem;
   }
+  .fa-5x {
+    font-size: 4rem;
+  }
   #skills {
     padding: 3rem 1.5rem;
   }
