@@ -11,7 +11,7 @@
   background-color: whitesmoke;
 }
 .message-header {
-  padding: 0.5em 1em;
+  padding: 0.25em 1em;
   background-color: $highlight-text;
 }
 </style>
