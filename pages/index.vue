@@ -35,7 +35,7 @@
     </section>
     <section id="skills" class="section is-medium">
       <div class="container has-text-centered">
-        <h1 class="title is-size-2-tablet pb-2">
+        <h1 class="title is-size-2-tablet pb-1-5">
           Software&shy;entwicklung
         </h1>
         <div class="columns is-multiline is-mobile is-vcentered">
@@ -189,11 +189,11 @@ export default {
 .pt-1 {
   padding-top: 1rem;
 }
-.pb-2 {
-  padding-bottom: 2rem;
+.pb-1-5 {
+  padding-bottom: 1.5rem;
 }
 #skills {
-  padding: 6rem 1.5rem;
+  padding: 3rem 1.5rem;
 }
 
 .has-background {
@@ -218,14 +218,11 @@ export default {
   .has-background-second {
     background-image: url('~assets/background-second-mobile.jpg');
   }
-  .pb-2 {
+  .pb-1-5 {
     padding-bottom: 1rem;
   }
   .fa-5x {
     font-size: 4rem;
-  }
-  #skills {
-    padding: 3rem 1.5rem;
   }
 }
 </style>
