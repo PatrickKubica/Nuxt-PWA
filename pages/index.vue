@@ -34,33 +34,7 @@
       </div>
     </section>
     <section id="skills" class="section is-medium">
-      <div class="container has-text-centered">
-        <h1 class="title is-size-2-tablet pb-1-5">
-          Software&shy;entwicklung
-        </h1>
-        <div class="columns is-multiline is-mobile is-vcentered">
-          <skillcard>PHP</skillcard>
-          <skillcard>Laravel</skillcard>
-          <skillcard>Javascript / jQuery</skillcard>
-          <skillcard>Vue.js / Nuxt</skillcard>
-          <skillcard>Progressive Web Apps</skillcard>
-          <skillcard>Node.js / Express</skillcard>
-          <skillcard>Spryker</skillcard>
-          <skillcard>Magento / Magento 2</skillcard>
-          <skillcard>Typo3</skillcard>
-          <skillcard>MySQL / MongoDB</skillcard>
-          <skillcard>Amazon Echo / Alexa Skills</skillcard>
-          <skillcard>HTML</skillcard>
-          <skillcard>CSS / Sass / Less</skillcard>
-          <skillcard>Bootstrap / Bulma</skillcard>
-          <skillcard>PHPUnit / PHP_CS / ESLint</skillcard>
-          <skillcard>Composer / npm / Bower / Yarn</skillcard>
-          <skillcard>Apache / Nginx</skillcard>
-          <skillcard>Scrum / Kanban</skillcard>
-          <skillcard>Git / Bitbucket</skillcard>
-          <skillcard>Unit-Testing</skillcard>
-        </div>
-      </div>
+      <skillsection :skills="['PHP', 'Laravel', 'Javascript / jQuery', 'Vue.js / Nuxt', 'Progressive Web Apps', 'Node.js / Express', 'Spryker', 'Magento / Magento 2', 'Typo3', 'MySQL / MongoDB', 'Amazon Echo / Alexa Skills', 'HTML', 'CSS / Sass / Less', 'Bootstrap / Bulma', 'PHPUnit / PHP_CS / ESLint', 'Composer / npm / Bower / Yarn', 'Apache / Nginx', 'Scrum / Kanban', 'Git / Bitbucket', 'Unit-Testing']" />
     </section>
     <fhsection section-id="experience" additional-classes="is-light has-background has-background-second">
       <div class="columns is-multiline">
@@ -145,7 +119,7 @@
 import Fhsection from '~/components/Fhsection.vue'
 import Navbar from '~/components/Navbar.vue'
 import Jobcard from '~/components/Jobcard.vue'
-import Skillcard from '~/components/Skillcard.vue'
+import Skillsection from '~/components/Skillsection.vue'
 import Educationcard from '~/components/Educationcard.vue'
 
 export default {
@@ -153,7 +127,7 @@ export default {
     Fhsection,
     Navbar,
     Jobcard,
-    Skillcard,
+    Skillsection,
     Educationcard
   }
 }
