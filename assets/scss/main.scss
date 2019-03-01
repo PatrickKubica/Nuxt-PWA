@@ -1,0 +1,65 @@
+.social-icons-footer {
+    padding-top: 1.5rem;
+    a {
+      color: #363636;
+    }
+  }
+  .socialicons {
+    padding-top: 3rem;
+  
+    a {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  .is-section-title {
+    padding-bottom: 3rem;
+  }
+  .is-highlight-text {
+    color: $highlight-text;
+  }
+  .awards {
+    padding-bottom: 5rem;
+  }
+  .pt-05 {
+    padding-top: 0.5rem;
+  }
+  .pt-1 {
+    padding-top: 1rem;
+  }
+  .pb-1-5 {
+    padding-bottom: 1.5rem;
+  }
+  #skills {
+    padding: 3rem 1.5rem;
+  }
+  
+  .has-background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .has-background-first {
+    background-image: url('~assets/background-first.jpg');
+  }
+  .has-background-second {
+    background-image: url('~assets/background-second.jpg');
+  }
+  @media screen and (max-width: 600px) {
+    .has-background {
+      background-attachment: scroll;
+    }
+    .has-background-first {
+      background-image: url('~assets/background-first-mobile.jpg');
+    }
+    .has-background-second {
+      background-image: url('~assets/background-second-mobile.jpg');
+    }
+    .pb-1-5 {
+      padding-bottom: 1rem;
+    }
+    .fa-5x {
+      font-size: 4rem;
+    }
+  }
