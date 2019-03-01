@@ -92,7 +92,6 @@ module.exports = {
   manifest: {
     name: 'Patrick Kubica',
     short_name: 'Patrick Kubica',
-    lang: 'de',
-    display: 'fullscreen'
+    lang: 'de'
   }
 }
