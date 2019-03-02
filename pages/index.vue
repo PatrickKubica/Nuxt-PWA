@@ -34,7 +34,7 @@
       </div>
     </section>
     <section id="skills" class="section is-medium">
-      <skillsection :skills="['PHP', 'Laravel', 'Javascript / jQuery', 'Vue.js / Nuxt', 'Progressive Web Apps', 'Node.js / Express', 'Spryker', 'Magento / Magento 2', 'Typo3', 'MySQL / MongoDB', 'Amazon Echo / Alexa Skills', 'HTML', 'CSS / Sass / Less', 'Bootstrap / Bulma', 'PHPUnit / PHP_CS / ESLint', 'Composer / npm / Bower / Yarn', 'Apache / Nginx', 'Scrum / Kanban', 'Git / Bitbucket', 'Unit-Testing']" />
+      <skillsection :skills="skills" />
     </section>
     <fhsection section-id="experience" additional-classes="is-light has-background has-background-second">
       <div class="columns is-multiline">
@@ -129,6 +129,32 @@ export default {
     Jobcard,
     Skillsection,
     Educationcard
+  },
+  data: function() {
+    return {
+      skills: [
+        'PHP',
+        'Laravel',
+        'Javascript / jQuery',
+        'Vue.js / Nuxt',
+        'Progressive Web Apps',
+        'Node.js / Express',
+        'Spryker',
+        'Magento / Magento 2',
+        'Typo3',
+        'MySQL / MongoDB',
+        'Amazon Echo / Alexa Skills',
+        'HTML',
+        'CSS / Sass / Less',
+        'Bootstrap / Bulma',
+        'PHPUnit / PHP_CS / ESLint',
+        'Composer / npm / Bower / Yarn',
+        'Apache / Nginx',
+        'Scrum / Kanban',
+        'Git / Bitbucket',
+        'Unit-Testing'
+      ]
+    }
   }
 }
 </script>
