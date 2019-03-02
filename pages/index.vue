@@ -33,7 +33,8 @@
         </div>
       </div>
     </section>
-    <section id="skills" class="section">
+    <span id="skills" class="skillsanchor" />
+    <section id="skillssection" class="section">
       <skillsection :skills="skills" />
     </section>
     <fhsection section-id="experience" additional-classes="is-light has-background has-background-second">
