@@ -33,7 +33,7 @@
         </div>
       </div>
     </section>
-    <section id="skills" class="section is-medium">
+    <section id="skills" class="section">
       <skillsection :skills="skills" />
     </section>
     <fhsection section-id="experience" additional-classes="is-light has-background has-background-second">
@@ -141,18 +141,14 @@ export default {
         'Node.js / Express',
         'Spryker',
         'Magento / Magento 2',
-        'Typo3',
-        'MySQL / MongoDB',
         'Amazon Echo / Alexa Skills',
         'HTML',
         'CSS / Sass / Less',
         'Bootstrap / Bulma',
         'PHPUnit / PHP_CS / ESLint',
-        'Composer / npm / Bower / Yarn',
-        'Apache / Nginx',
+        'Composer / npm',
         'Scrum / Kanban',
-        'Git / Bitbucket',
-        'Unit-Testing'
+        'Git / Bitbucket'
       ]
     }
   }
