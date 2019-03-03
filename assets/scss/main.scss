@@ -2,74 +2,84 @@ html {
   scroll-behavior: smooth;
 }
 .social-icons-footer {
-    padding-top: 1.5rem;
-    a {
-      color: #363636;
-    }
+  padding-top: 1.5rem;
+  a {
+    color: #363636;
   }
-  .socialicons {
-    padding-top: 3rem;
-  
-    a {
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
+}
+.socialicons {
+  padding-top: 3rem;
+  a {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
-  .is-section-title {
-    padding-bottom: 3rem;
-  }
-  .is-highlight-text {
-    color: $highlight-text;
-  }
-  .awards {
-    padding-bottom: 5rem;
-  }
-  .pt-05 {
-    padding-top: 0.5rem;
-  }
-  .pt-1 {
-    padding-top: 1rem;
-  }
+}
+.is-section-title {
+  padding-bottom: 3rem;
+}
+.is-highlight-text {
+  color: $highlight-text;
+}
+.awards {
+  padding-bottom: 5rem;
+}
+.pt-05 {
+padding-top: 0.5rem;
+}
+.pt-1 {
+  padding-top: 1rem;
+}
 
-  #skillssection {
-    padding: 5rem 1.5rem;
+#skillssection {
+  padding: 5rem 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .skillsanchor {
+    display: block;
+    height: 20vh;
+    margin-top: -20vh;
+    visibility: hidden;
   }
+}
+
+.has-background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.has-background-first {
+  background-image: url('~assets/background-first.jpg');
+}
+.has-background-second {
+  background-image: url('~assets/background-second.jpg');
+}
+.skillgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  justify-content: center;
   
-  @media screen and (min-width: 1024px) {
-    .skillsanchor {
-      display: block;
-      height: 20vh;
-      margin-top: -20vh;
-      visibility: hidden;
-    }
-  }
-  
+}
+
+@media screen and (max-width: 600px) {
   .has-background {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-attachment: scroll;
   }
   .has-background-first {
-    background-image: url('~assets/background-first.jpg');
+    background-image: url('~assets/background-first-mobile.jpg');
   }
   .has-background-second {
-    background-image: url('~assets/background-second.jpg');
+    background-image: url('~assets/background-second-mobile.jpg');
   }
-  @media screen and (max-width: 600px) {
-    .has-background {
-      background-attachment: scroll;
-    }
-    .has-background-first {
-      background-image: url('~assets/background-first-mobile.jpg');
-    }
-    .has-background-second {
-      background-image: url('~assets/background-second-mobile.jpg');
-    }
-    .fa-5x {
-      font-size: 4rem;
-    }
-    #skillssection {
-      padding: 3rem 1.5rem;
-    }
+  .skillgrid {
+    grid-template-columns: repeat(1, 75%);
   }
+  .fa-5x {
+    font-size: 4rem;
+  }
+  #skillssection {
+    padding: rem 1.5rem;
+  }
+}

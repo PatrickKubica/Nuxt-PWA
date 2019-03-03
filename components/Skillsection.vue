@@ -3,8 +3,8 @@
     <h1 class="title is-size-2-tablet">
       Software&shy;entwicklung
     </h1>
-    <div class="columns is-multiline is-mobile is-centered">
-      <div v-for="(skill, index) in skills" :key="index" class="column is-one-quarter-tablet is-three-quarters-mobile">
+    <div class="skillgrid">
+      <div v-for="(skill, index) in skills" :key="index">
         <article class="message has-text-left-tablet">
           <div class="message-body">
             {{ skill }}
