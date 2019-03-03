@@ -45,68 +45,66 @@
         <jobcard job-title="Software Team Assistent" company="Sitewards GmbH" date="November 2012 - Februar 2015" />
       </div>
     </fhsection>
-    <section id="education" class="section">
-      <div class="container has-text-centered">
-        <div class="educationgrid">
-          <educationcard>
-            <div class="message-body">
-              <h1 class="title is-size-4-mobile">
-                Hochschule Darmstadt
-              </h1>
-              <h2 class="subtitle is-size-6-mobile">
-                Bachelor of Science Informatik
-              </h2>
-              <p>
-                Abschluss in Regelstudienzeit
-              </p>
-              <p>
-                Note: 1,4
-              </p>
-            </div>
-          </educationcard>
-          <educationcard>
-            <div class="message-body">
-              <h1 class="title is-size-4-mobile">
-                Bachgauschule Babenhausen
-              </h1>
-              <h2 class="subtitle is-size-6-mobile">
-                Abitur
-              </h2>
-              <p>
-                Note: 1,5
-              </p>
-            </div>
-          </educationcard>
-          <educationcard>
-            <div class="message-body">
-              <h1 class="title is-size-4-mobile">
-                Spryker Bootcamp Certification
-              </h1>
-            </div>
-          </educationcard>
-          <educationcard>
-            <div class="message-body">
-              <h1 class="title is-size-4-mobile">
-                Magento Certified Developer
-              </h1>
-            </div>
-          </educationcard>
-          <div class="social-icons-footer">
-            <div class="footergrid">
-              <a href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
-                <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-5x" />
-              </a>
-              <a href="mailto:mail@patrickkubica.de" aria-label="E-Mail">
-                <font-awesome-icon :icon="['fa', 'envelope']" class="fa-5x" />
-              </a>
-              <a href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
-                <font-awesome-icon :icon="['fab', 'xing']" class="fa-5x" />
-              </a>
-            </div>
+    <fhsection section-id="education">
+      <div class="educationgrid">
+        <educationcard>
+          <div class="message-body">
+            <h1 class="title is-size-4-mobile">
+              Hochschule Darmstadt
+            </h1>
+            <h2 class="subtitle is-size-6-mobile">
+              Bachelor of Science Informatik
+            </h2>
+            <p>
+              Abschluss in Regelstudienzeit
+            </p>
+            <p>
+              Note: 1,4
+            </p>
+          </div>
+        </educationcard>
+        <educationcard>
+          <div class="message-body">
+            <h1 class="title is-size-4-mobile">
+              Bachgauschule Babenhausen
+            </h1>
+            <h2 class="subtitle is-size-6-mobile">
+              Abitur
+            </h2>
+            <p>
+              Note: 1,5
+            </p>
+          </div>
+        </educationcard>
+        <educationcard>
+          <div class="message-body">
+            <h1 class="title is-size-4-mobile">
+              Spryker Bootcamp Certification
+            </h1>
+          </div>
+        </educationcard>
+        <educationcard>
+          <div class="message-body">
+            <h1 class="title is-size-4-mobile">
+              Magento Certified Developer
+            </h1>
+          </div>
+        </educationcard>
+        <div class="social-icons-footer">
+          <div class="footergrid">
+            <a href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
+              <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-5x" />
+            </a>
+            <a href="mailto:mail@patrickkubica.de" aria-label="E-Mail">
+              <font-awesome-icon :icon="['fa', 'envelope']" class="fa-5x" />
+            </a>
+            <a href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
+              <font-awesome-icon :icon="['fab', 'xing']" class="fa-5x" />
+            </a>
           </div>
         </div>
       </div>
-    </section>
+    </fhsection>
   </div>
 </template>
 
