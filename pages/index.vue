@@ -38,7 +38,7 @@
       <skillsection :skills="skills" />
     </section>
     <fhsection section-id="experience" additional-classes="is-light has-background has-background-second">
-      <div class="columns is-multiline">
+      <div class="jobgrid">
         <jobcard job-title="Lead Software Developer" company="Sitewards GmbH" date="März 2018 - Heute" />
         <jobcard job-title="Software Developer" company="Sitewards GmbH" date="August 2017 - Februar 2018" />
         <jobcard job-title="Junior Software Developer" company="Sitewards GmbH" date="März 2015 - Juli 2017" />

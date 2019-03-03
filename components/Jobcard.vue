@@ -1,5 +1,5 @@
 <template>
-  <div class="column is-half">
+  <div>
     <div class="card">
       <div class="card-content">
         <div class="media">
