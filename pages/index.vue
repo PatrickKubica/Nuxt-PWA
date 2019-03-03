@@ -47,7 +47,7 @@
     </fhsection>
     <section id="education" class="section">
       <div class="container has-text-centered">
-        <div class="columns is-multiline">
+        <div class="educationgrid">
           <educationcard>
             <div class="message-body">
               <h1 class="title is-size-4-mobile">
@@ -91,23 +91,17 @@
               </h1>
             </div>
           </educationcard>
-          <div class="column is-half is-offset-one-quarter social-icons-footer">
-            <div class="columns is-vcentered is-mobile">
-              <div class="column">
-                <a href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
-                  <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-5x" />
-                </a>
-              </div>
-              <div class="column">
-                <a href="mailto:mail@patrickkubica.de" aria-label="E-Mail">
-                  <font-awesome-icon :icon="['fa', 'envelope']" class="fa-5x" />
-                </a>
-              </div>
-              <div class="column">
-                <a href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
-                  <font-awesome-icon :icon="['fab', 'xing']" class="fa-5x" />
-                </a>
-              </div>
+          <div class="social-icons-footer">
+            <div class="footergrid">
+              <a href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
+                <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-5x" />
+              </a>
+              <a href="mailto:mail@patrickkubica.de" aria-label="E-Mail">
+                <font-awesome-icon :icon="['fa', 'envelope']" class="fa-5x" />
+              </a>
+              <a href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
+                <font-awesome-icon :icon="['fab', 'xing']" class="fa-5x" />
+              </a>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="column is-half is-offset-one-quarter is-dark">
+  <div class="is-dark">
     <article class="message is-dark" />
     <div class="message-header" />
     <slot />
