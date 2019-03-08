@@ -134,7 +134,7 @@ export default {
         'Node.js ',
         'Spryker',
         'Magento / Magento 2',
-        'Amazon Echo / Alexa Skills',
+        'Amazon Echo Skills',
         'HTML',
         'CSS / Sass / Less',
         'Bootstrap / Bulma'

@@ -60,14 +60,13 @@ padding-top: 0.5rem;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   justify-content: center;
-  
+  align-items: center;
 }
 .jobgrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
   justify-content: center;
-  
 }
 .educationgrid {
   display: grid;
@@ -87,7 +86,7 @@ padding-top: 0.5rem;
     background-attachment: scroll;
   }
   .skillgrid {
-    grid-template-columns: repeat(1, 75%);
+    grid-template-columns: repeat(2, 1fr);
   }
   .jobgrid {
     grid-template-columns: repeat(1, 1fr);
