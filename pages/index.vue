@@ -128,20 +128,16 @@ export default {
       skills: [
         'PHP',
         'Laravel',
-        'Javascript / jQuery',
+        'Javascript',
         'Vue.js / Nuxt',
         'Progressive Web Apps',
-        'Node.js / Express',
+        'Node.js ',
         'Spryker',
         'Magento / Magento 2',
         'Amazon Echo / Alexa Skills',
         'HTML',
         'CSS / Sass / Less',
-        'Bootstrap / Bulma',
-        'PHPUnit / PHP_CS / ESLint',
-        'Composer / npm',
-        'Scrum / Kanban',
-        'Git / Bitbucket'
+        'Bootstrap / Bulma'
       ]
     }
   }
