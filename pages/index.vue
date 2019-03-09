@@ -56,9 +56,6 @@
               Bachelor of Science Informatik
             </h2>
             <p>
-              Abschluss in Regelstudienzeit
-            </p>
-            <p>
               Note: 1,4
             </p>
           </div>
@@ -90,19 +87,6 @@
             </h1>
           </div>
         </educationcard>
-        <div class="social-icons-footer">
-          <div class="footergrid">
-            <a href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
-              <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-5x" />
-            </a>
-            <a href="mailto:mail@patrickkubica.de" aria-label="E-Mail">
-              <font-awesome-icon :icon="['fa', 'envelope']" class="fa-5x" />
-            </a>
-            <a href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
-              <font-awesome-icon :icon="['fab', 'xing']" class="fa-5x" />
-            </a>
-          </div>
-        </div>
       </div>
     </fhsection>
   </div>
