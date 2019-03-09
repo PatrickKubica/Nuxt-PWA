@@ -44,6 +44,10 @@ module.exports = {
     '@nuxtjs/bulma',
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
+    ['@nuxtjs/sitemap', {
+      generate: true,
+      hostname: 'https://www.patrickkubica.de/',
+    }],
     ['nuxt-fontawesome', {
         imports: [
           {
