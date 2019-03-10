@@ -124,7 +124,7 @@ export default {
         'Amazon Echo Skills',
         'HTML',
         'CSS / Sass / Less',
-        'Bootstrap / Bulma'
+        'Bootstrap / Material / Bulma'
       ]
     }
   }
