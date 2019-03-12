@@ -79,14 +79,18 @@
         <educationcard>
           <div class="message-body">
             <h1 class="title is-size-4-mobile">
-              Spryker Bootcamp Certification
+              Spryker Bootcamp 
+              <br>
+              Certification
             </h1>
           </div>
         </educationcard>
         <educationcard>
           <div class="message-body">
             <h1 class="title is-size-4-mobile">
-              Magento Certified Developer
+              Magento Certified
+              <br>
+              Developer
             </h1>
           </div>
         </educationcard>
