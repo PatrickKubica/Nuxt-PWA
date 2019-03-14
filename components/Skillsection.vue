@@ -6,7 +6,7 @@
     <div class="skillgrid">
       <div v-for="(skill, index) in skills" :key="index">
         <article class="message has-text-left-tablet">
-          <div class="message-body">
+          <div class="message-body has-text-weight-semibold">
             {{ skill }}
           </div>
         </article>
