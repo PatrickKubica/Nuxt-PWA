@@ -1,7 +1,7 @@
 <template>
   <div class="hero-head">
     <header class="navbar is-fixed-top">
-      <div class="container has-text-black">
+      <div class="container has-text-black has-text-weight-semibold">
         <div class="navbar-brand">
           <span
             class="navbar-burger burger"
