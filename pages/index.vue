@@ -11,15 +11,13 @@
             Full-Stack Web Developer
           </h2>
           <p class="is-size-4-tablet has-text-white">
-            Lead Software Developer at Sitewards GmbH, Frankfurt am Main
-          </p>
-          <p class="is-size-4-tablet has-text-white pt-05">
             Bachelor of Science Informatik
           </p>
-          <div class="is-size-4-tablet mail pt-1">
-            <a class="has-text-white" href="mailto:mail@patrickkubica.de">mail@patrickkubica.de</a>
-          </div>
+        
           <div class="socialicons">
+            <a class="has-text-white" href="mailto:mail@patrickkubica.de" aria-label="E-Mail">
+              <font-awesome-icon :icon="['fa', 'envelope']" class="fa-3x" />
+            </a>
             <a class="has-text-white" href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
               <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-3x" />
             </a>
