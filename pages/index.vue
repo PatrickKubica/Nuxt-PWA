@@ -44,7 +44,7 @@
       </div>
     </fhsection>
     <span id="education" class="educationanchor" />
-    <section class="section is-medium">
+    <section id="education-section" class="section">
       <div class="container has-text-centered">
         <div class="educationgrid">
           <educationcard>
