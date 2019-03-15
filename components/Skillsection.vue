@@ -1,8 +1,5 @@
 <template>
   <div class="container has-text-centered">
-    <h1 class="title is-size-2-tablet">
-      Software&shy;entwicklung
-    </h1>
     <div class="skillgrid">
       <div v-for="(skill, index) in skills" :key="index">
         <article class="message has-text-left-tablet">
