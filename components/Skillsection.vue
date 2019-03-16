@@ -1,9 +1,9 @@
 <template>
   <div class="container has-text-centered">
     <div class="skillgrid">
-      <div v-for="(skill, index) in skills" :key="index">
-        <article class="message has-text-left-tablet">
-          <div class="message-body has-text-weight-semibold">
+      <div v-for="(skill, index) in skills" :key="index" class="full-height">
+        <article class="message has-text-left-tablet full-height">
+          <div class="message-body has-text-weight-semibold full-height has-content-centered">
             {{ skill }}
           </div>
         </article>
