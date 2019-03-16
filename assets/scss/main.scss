@@ -78,8 +78,9 @@ padding-top: 0.5rem;
 }
 .jobgrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1.5rem;
+  grid-template-columns: repeat(2, 45%);
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 2.5rem;
   justify-content: center;
 }
 .educationgrid {
@@ -98,7 +99,8 @@ padding-top: 0.5rem;
     grid-template-columns: repeat(2, 1fr);
   }
   .jobgrid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 90%);
+    grid-column-gap: 1.5rem;
   }
   .educationgrid {
     grid-template-columns: repeat(1, 1fr);

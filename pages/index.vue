@@ -138,7 +138,7 @@ export default {
         'Progressive Web Apps',
         'Node.js ',
         'Spryker',
-        'Magento / Magento 2',
+        'Magento',
         'Amazon Echo Skills',
         'HTML',
         'CSS / Sass / Less',
