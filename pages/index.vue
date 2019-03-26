@@ -4,28 +4,28 @@
       <navbar />
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title is-size-2-mobile is-size-1-tablet has-text-white">
+          <h1 class="title is-size-2-mobile is-size-1-tablet has-text-white animate-text animation-1">
             Patrick Kubica
           </h1>
-          <h2 class="subtitle is-size-2-tablet has-text-white">
+          <h2 class="subtitle is-size-2-tablet has-text-white animate-text animation-2">
             Full-Stack Web Developer
           </h2>
-          <p class="is-size-4-tablet has-text-white">
+          <p class="is-size-4-tablet has-text-white animate-text animation-3">
             Bachelor of Science Informatik
           </p>
         
           <div class="socialicons">
             <a class="has-text-white" href="mailto:mail@patrickkubica.de" aria-label="E-Mail">
-              <font-awesome-icon :icon="['fa', 'envelope']" class="fa-3x" />
+              <font-awesome-icon :icon="['fa', 'envelope']" class="fa-3x animate-text animation-4" />
             </a>
             <a class="has-text-white" href="https://www.linkedin.com/in/patrick-kubica-002027156" aria-label="LinkedIn">
-              <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-3x" />
+              <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-3x animate-text animation-5" />
             </a>
             <a class="has-text-white" href="https://www.xing.com/profile/Patrick_Kubica2" aria-label="Xing">
-              <font-awesome-icon :icon="['fab', 'xing']" class="fa-3x" />
+              <font-awesome-icon :icon="['fab', 'xing']" class="fa-3x animate-text animation-6" />
             </a>
             <a class="has-text-white" href="https://github.com/PatrickKubica" aria-label="GitHub">
-              <font-awesome-icon :icon="['fab', 'github']" class="fa-3x" />
+              <font-awesome-icon :icon="['fab', 'github']" class="fa-3x animate-text animation-7" />
             </a>
           </div>
         </div>
