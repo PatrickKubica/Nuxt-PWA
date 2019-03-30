@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="card">
+    <div v-in-viewport.once class="card pop-in">
       <div class="card-content">
         <div class="media">
           <div class="media-content">
@@ -19,7 +19,13 @@
     </div>
   </div>
 </template>
+
 <script>
+import Vue from 'vue'
+import inViewportDirective from 'vue-in-viewport-directive'
+inViewportDirective.defaults.top = -200
+Vue.directive('in-viewport', inViewportDirective)
+
 export default {
   props: {
     jobTitle: {
