@@ -8,7 +8,7 @@
             Patrick Kubica
           </h1>
           <h2 class="subtitle is-size-2-tablet has-text-white animate-text animation-2">
-            Full-Stack Web Developer
+            Full Stack Developer
           </h2>
           <p class="is-size-4-tablet has-text-white animate-text animation-3">
             Bachelor of Science Informatik
