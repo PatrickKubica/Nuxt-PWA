@@ -147,6 +147,9 @@ padding-top: 0.5rem;
 .navbar-end {
   background-color: rgba(245, 245, 245, 0.5);
 }
+.navbar-burger.burger {
+  color: black;
+}
 
 @media screen and (max-width: 600px) {
   .has-background {
