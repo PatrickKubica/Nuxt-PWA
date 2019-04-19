@@ -146,9 +146,12 @@ padding-top: 0.5rem;
 
 .navbar-end {
   background-color: rgba(245, 245, 245, 0.3);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 .navbar-burger.burger {
   background-color: rgba(245, 245, 245, 0.3);
+  border-bottom-left-radius: 0.5rem;
   color: black;
 }
 
