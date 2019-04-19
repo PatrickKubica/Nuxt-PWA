@@ -144,6 +144,10 @@ padding-top: 0.5rem;
   animation-delay: 1.4s;
 }
 
+.navbar-end {
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
 @media screen and (max-width: 600px) {
   .has-background {
     background-attachment: scroll;
