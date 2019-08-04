@@ -135,15 +135,18 @@ export default {
         'PHP',
         'Laravel',
         'Javascript',
-        'Vue.js / Nuxt',
-        'Progressive Web Apps',
+        'Vue.js',
+        'Nuxt',
         'Flutter',
+        'Dart',
+        'Progressive Web Apps',
         'Spryker',
         'Magento',
         'Amazon Echo Skills',
         'HTML',
         'CSS / Sass / Less',
-        'Bootstrap / Material / Bulma'
+        'Bootstrap / Material / Bulma',
+        'Test-Driven Development'
       ]
     }
   }
