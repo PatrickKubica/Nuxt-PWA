@@ -16,7 +16,7 @@
         <div id="navbarMenuHeroC" class="navbar-menu" :class="{ 'is-active': isNavActive }">
           <div class="navbar-end">
             <a class="navbar-item" href="#" @click="hideNavIfActive">Home</a>
-            <a class="navbar-item" href="#skills" @click="hideNavIfActive">Softwareentwicklung</a>
+            <a class="navbar-item" href="#skills" @click="hideNavIfActive">Skills</a>
             <a class="navbar-item" href="#experience" @click="hideNavIfActive">Berufserfahrung</a>
             <a class="navbar-item" href="#education" @click="hideNavIfActive">Bildungsweg</a>
             <a class="navbar-item" href="#contact" @click="hideNavIfActive">Kontakt</a>
