@@ -135,10 +135,11 @@ export default {
         'PHP',
         'Laravel',
         'Javascript',
-        'Vue.js',
-        'Nuxt',
-        'Flutter',
+        'Vue.js / Nuxt',
+        'Flutter / iOS and Android Apps',
         'Dart',
+        'MySQL / Microsoft SQL',
+        'OOP',
         'Progressive Web Apps',
         'Spryker',
         'Magento',
@@ -146,7 +147,9 @@ export default {
         'HTML',
         'CSS / Sass / Less',
         'Bootstrap / Material / Bulma',
-        'Test-Driven Development'
+        'Test-Driven Development',
+        'Server Administration',
+        'Jira and Office Administration'
       ]
     }
   }
