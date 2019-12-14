@@ -52,7 +52,7 @@ module.exports = {
         imports: [
           {
             set:'@fortawesome/free-solid-svg-icons',
-            icons: ['faEnvelope']
+            icons: ['faEnvelope', 'faFileAlt']
           },
           {
             set:'@fortawesome/free-brands-svg-icons',

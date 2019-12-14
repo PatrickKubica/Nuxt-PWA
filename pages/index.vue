@@ -81,6 +81,9 @@
                 <br>
                 Certification
               </h1>
+              <a class="subtitle" href="https://www.credential.net/ehuo4m6n" aria-label="Zertifizierung" target="_blank">
+                <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
+              </a>
             </div>
           </educationcard>
           <educationcard>
@@ -90,6 +93,45 @@
                 <br>
                 Developer
               </h1>
+              <a class="subtitle" href="https://u.magento.com/certification/directory/dev/2124989/" aria-label="Zertifizierung" target="_blank">
+                <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
+              </a>
+            </div>
+          </educationcard>
+          <educationcard>
+            <div class="message-body">
+              <h1 class="title is-size-4-mobile">
+                Flutter and Dart
+                <br>
+                Development course 
+              </h1>
+              <a class="subtitle" href="/flutter-and-dart-development-certification.pdf" aria-label="Zertifizierung" target="_blank">
+                <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
+              </a>
+            </div>
+          </educationcard>
+          <educationcard>
+            <div class="message-body">
+              <h1 class="title is-size-4-mobile">
+                Flutter Development Bootcamp 
+                <br>
+                with Dart course 
+              </h1>
+              <a class="subtitle" href="/flutter-development-bootcamp-with-dart.pdf" aria-label="Zertifizierung" target="_blank">
+                <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
+              </a>
+            </div>
+          </educationcard>
+          <educationcard>
+            <div class="message-body">
+              <h1 class="title is-size-4-mobile">
+                SCRUM - Agil denken und 
+                <br>
+                arbeiten course 
+              </h1>
+              <a class="subtitle" href="/SCRUM-agil-denken-und-arbeiten.pdf" aria-label="Zertifizierung" target="_blank">
+                <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
+              </a>
             </div>
           </educationcard>
         </div>
