@@ -51,10 +51,10 @@
           <educationcard>
             <div class="message-body">
               <h1 class="title is-size-4-mobile">
-                Hochschule Darmstadt
+                Bachelor of Science Informatik
               </h1>
               <h2 class="subtitle is-size-6-mobile">
-                Bachelor of Science Informatik
+                Hochschule Darmstadt
               </h2>
               <p>
                 Note: 1,4
@@ -64,10 +64,10 @@
           <educationcard>
             <div class="message-body">
               <h1 class="title is-size-4-mobile">
-                Bachgauschule Babenhausen
+                Abitur
               </h1>
               <h2 class="subtitle is-size-6-mobile">
-                Abitur
+                Bachgauschule Babenhausen
               </h2>
               <p>
                 Note: 1,5
