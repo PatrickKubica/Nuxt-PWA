@@ -105,7 +105,7 @@
                 <br>
                 Development course 
               </h1>
-              <a class="subtitle" href="/flutter-and-dart-development-certification.pdf" aria-label="Zertifizierung" target="_blank">
+              <a class="subtitle" href="https://www.udemy.com/certificate/UC-L0SUPM7B/" aria-label="Zertifizierung" target="_blank">
                 <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
               </a>
             </div>
@@ -117,7 +117,7 @@
                 <br>
                 with Dart course 
               </h1>
-              <a class="subtitle" href="/flutter-development-bootcamp-with-dart.pdf" aria-label="Zertifizierung" target="_blank">
+              <a class="subtitle" href="https://www.udemy.com/certificate/UC-OVJNTO16/" aria-label="Zertifizierung" target="_blank">
                 <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
               </a>
             </div>
@@ -129,7 +129,7 @@
                 <br>
                 arbeiten course 
               </h1>
-              <a class="subtitle" href="/SCRUM-agil-denken-und-arbeiten.pdf" aria-label="Zertifizierung" target="_blank">
+              <a class="subtitle" href="https://www.udemy.com/certificate/UC-AVHTC9J6/" aria-label="Zertifizierung" target="_blank">
                 <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
               </a>
             </div>
