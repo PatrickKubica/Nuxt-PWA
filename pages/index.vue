@@ -8,7 +8,7 @@
             Patrick Kubica
           </h1>
           <h2 class="subtitle is-size-2-tablet has-text-white">
-            Full Stack Developer
+            Head of Technology
           </h2>
           <p class="is-size-4-tablet has-text-white">
             Bachelor of Science Informatik
@@ -37,7 +37,8 @@
     </section>
     <fhsection section-id="experience" additional-classes="is-light has-background has-background-second">
       <div class="jobgrid">
-        <jobcard job-title="Full Stack Developer" company="asuro GmbH" date="Mai 2019 - Heute" />
+        <jobcard job-title="Head of Technology &amp; Deputy Site Manager" company="Sitewards GmbH" date="Februar 2020 - Heute" />
+        <jobcard job-title="Full Stack Developer" company="asuro GmbH" date="Mai 2019 - Januar 2020" />
         <jobcard job-title="Lead Software Developer" company="Sitewards GmbH" date="März 2018 - April 2019" />
         <jobcard job-title="Software Developer" company="Sitewards GmbH" date="August 2017 - Februar 2018" />
         <jobcard job-title="Junior Software Developer" company="Sitewards GmbH" date="März 2015 - Juli 2017" />
