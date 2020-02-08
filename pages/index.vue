@@ -7,7 +7,7 @@
           <h1 class="title is-size-2-mobile is-size-1-tablet has-text-white">
             Patrick Kubica
           </h1>
-          <h2 class="subtitle is-size-2-tablet has-text-white">
+          <h2 class="subtitle is-size-4-mobile is-size-3-tablet has-text-white">
             Head of Technology
           </h2>
           <p class="is-size-4-tablet has-text-white">
