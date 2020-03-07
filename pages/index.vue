@@ -82,7 +82,7 @@
                 <br>
                 Certification
               </h1>
-              <a class="subtitle" href="https://www.credential.net/ehuo4m6n" aria-label="Zertifizierung">
+              <a class="subtitle" href="https://www.credential.net/ehuo4m6n" aria-label="Zertifizierung" target="_blank" rel="noopener">
                 <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
               </a>
             </div>
@@ -94,7 +94,7 @@
                 <br>
                 Developer
               </h1>
-              <a class="subtitle" href="https://u.magento.com/certification/directory/dev/2124989/" aria-label="Zertifizierung">
+              <a class="subtitle" href="https://u.magento.com/certification/directory/dev/2124989/" aria-label="Zertifizierung" target="_blank" rel="noopener">
                 <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
               </a>
             </div>
@@ -106,7 +106,7 @@
                 <br>
                 Development course 
               </h1>
-              <a class="subtitle" href="https://www.udemy.com/certificate/UC-L0SUPM7B/" aria-label="Zertifizierung">
+              <a class="subtitle" href="https://www.udemy.com/certificate/UC-L0SUPM7B/" aria-label="Zertifizierung" target="_blank" rel="noopener">
                 <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
               </a>
             </div>
@@ -118,7 +118,7 @@
                 <br>
                 with Dart course 
               </h1>
-              <a class="subtitle" href="https://www.udemy.com/certificate/UC-OVJNTO16/" aria-label="Zertifizierung">
+              <a class="subtitle" href="https://www.udemy.com/certificate/UC-OVJNTO16/" aria-label="Zertifizierung" target="_blank" rel="noopener">
                 <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
               </a>
             </div>
@@ -130,7 +130,7 @@
                 <br>
                 arbeiten course 
               </h1>
-              <a class="subtitle" href="https://www.udemy.com/certificate/UC-AVHTC9J6/" aria-label="Zertifizierung">
+              <a class="subtitle" href="https://www.udemy.com/certificate/UC-AVHTC9J6/" aria-label="Zertifizierung" target="_blank" rel="noopener">
                 <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
               </a>
             </div>
