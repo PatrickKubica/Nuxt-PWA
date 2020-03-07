@@ -75,66 +75,12 @@
               </p>
             </div>
           </educationcard>
-          <educationcard>
-            <div class="message-body">
-              <h1 class="title is-size-4-mobile">
-                Spryker Bootcamp 
-                <br>
-                Certification
-              </h1>
-              <a class="subtitle" href="https://www.credential.net/ehuo4m6n" aria-label="Zertifizierung">
-                <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
-              </a>
-            </div>
-          </educationcard>
-          <educationcard>
-            <div class="message-body">
-              <h1 class="title is-size-4-mobile">
-                Magento Certified
-                <br>
-                Developer
-              </h1>
-              <a class="subtitle" href="https://u.magento.com/certification/directory/dev/2124989/" aria-label="Zertifizierung">
-                <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
-              </a>
-            </div>
-          </educationcard>
-          <educationcard>
-            <div class="message-body">
-              <h1 class="title is-size-4-mobile">
-                Flutter and Dart
-                <br>
-                Development course 
-              </h1>
-              <a class="subtitle" href="https://www.udemy.com/certificate/UC-L0SUPM7B/" aria-label="Zertifizierung">
-                <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
-              </a>
-            </div>
-          </educationcard>
-          <educationcard>
-            <div class="message-body">
-              <h1 class="title is-size-4-mobile">
-                Flutter Development Bootcamp 
-                <br>
-                with Dart course 
-              </h1>
-              <a class="subtitle" href="https://www.udemy.com/certificate/UC-OVJNTO16/" aria-label="Zertifizierung">
-                <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
-              </a>
-            </div>
-          </educationcard>
-          <educationcard>
-            <div class="message-body">
-              <h1 class="title is-size-4-mobile">
-                SCRUM - Agil denken und 
-                <br>
-                arbeiten course 
-              </h1>
-              <a class="subtitle" href="https://www.udemy.com/certificate/UC-AVHTC9J6/" aria-label="Zertifizierung">
-                <font-awesome-icon :icon="['fa', 'file-alt']" class="fa-lg" />
-              </a>
-            </div>
-          </educationcard>
+          <certificationcard certification-title="Magento Certified" certification-subtitle="Developer" certification-link="https://u.magento.com/certification/directory/dev/2124989/" />
+          <certificationcard certification-title="Spryker Bootcamp" certification-subtitle="Certification" certification-link="https://www.credential.net/ehuo4m6n" />
+          <certificationcard certification-title="Flutter and Dart" certification-subtitle="Development course" certification-link="https://www.udemy.com/certificate/UC-L0SUPM7B/" />
+          <certificationcard certification-title="Flutter Development Bootcamp" certification-subtitle="with Dart course" certification-link="https://www.udemy.com/certificate/UC-OVJNTO16/" />
+          <certificationcard certification-title="SCRUM - Agil denken und" certification-subtitle="arbeiten course" certification-link="https://www.udemy.com/certificate/UC-AVHTC9J6/" />
+          <certificationcard certification-title="Management Skills" certification-subtitle="Certification" certification-link="https://www.udemy.com/certificate/UC-6OMCX5CO/" />
         </div>
       </div>
     </section>
@@ -163,6 +109,7 @@ import Navbar from '~/components/Navbar.vue'
 import Jobcard from '~/components/Jobcard.vue'
 import Skillsection from '~/components/Skillsection.vue'
 import Educationcard from '~/components/Educationcard.vue'
+import Certificationcard from '~/components/Certificationcard.vue'
 
 export default {
   components: {
@@ -170,7 +117,8 @@ export default {
     Navbar,
     Jobcard,
     Skillsection,
-    Educationcard
+    Educationcard,
+    Certificationcard
   },
   data: function() {
     return {
