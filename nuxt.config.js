@@ -14,7 +14,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Patrick Kubica, Head of Technology & Deputy Site Manager, Softwareentwickler PHP, Javascript, Laravel, Vue.js, Flutter in Frankfurt' }
+      { hid: 'description', name: 'description', content: 'Patrick Kubica, Head of Technology and Deputy Site Manager, Softwareentwickler PHP, Javascript, Laravel, Vue.js, Flutter in Frankfurt' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
