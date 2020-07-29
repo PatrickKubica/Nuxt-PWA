@@ -124,7 +124,7 @@ export default {
     return {
       skills: [
         'PHP',
-        'Laravel',
+        'Laravel / Symfony',
         'Javascript',
         'Vue.js / Nuxt',
         'Flutter / iOS and Android Apps',
