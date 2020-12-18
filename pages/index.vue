@@ -8,7 +8,7 @@
             Patrick Kubica
           </h1>
           <h2 class="subtitle is-size-4-mobile is-size-3-tablet has-text-white">
-            Senior Solution Architect
+            Head of Technology &amp; Deputy Site Manager
           </h2>
           <p class="is-size-4-tablet has-text-white">
             Bachelor of Science Informatik
@@ -37,8 +37,7 @@
     </section>
     <fhsection section-id="experience" additional-classes="is-light has-background has-background-second">
       <div class="jobgrid">
-        <jobcard job-title="Senior Solution Architect" company="Y1 Digital AG (ehemals Sitewards GmbH)" date="July 2020 - Heute" />
-        <jobcard job-title="Head of Technology &amp; Deputy Site Manager" company="Sitewards GmbH" date="Februar 2020 - July 2020" />
+        <jobcard job-title="Head of Technology &amp; Deputy Site Manager" company="Sitewards GmbH" date="Februar 2020 - Heute" />
         <jobcard job-title="Full Stack Developer" company="asuro GmbH" date="Mai 2019 - Januar 2020" />
         <jobcard job-title="Lead Software Developer" company="Sitewards GmbH" date="März 2018 - April 2019" />
         <jobcard job-title="Software Developer" company="Sitewards GmbH" date="August 2017 - Februar 2018" />
