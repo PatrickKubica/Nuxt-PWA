@@ -102,5 +102,6 @@ module.exports = {
     name: 'Patrick Kubica',
     short_name: 'Patrick Kubica',
     lang: 'de'
-  }
+  },
+  target: 'static'
 }
