@@ -1,6 +1,6 @@
 # Nuxt-PWA
 
-> Nuxt PWA
+> My personal website created with Nuxt and Bulma https://www.patrickkubica.de/
 
 ## Build Setup
 
